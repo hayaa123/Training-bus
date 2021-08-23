@@ -1,0 +1,15 @@
+#img_section {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: auto;
+}
+
+img {
+    width:500px;
+    height:500px;
+    object-fit: cover;
+}
+section button {
+    margin: 30px auto;
+    display: block;
+}
